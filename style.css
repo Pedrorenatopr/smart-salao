@@ -1,0 +1,353 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-height: 1200px;
+}
+
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg-desktop-smart.webp);
+    background-size: 2024px;
+    background-repeat: no-repeat;
+    max-height: 1200px;
+}
+
+
+h1 {
+    width: 450px;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.legenda {
+    width: 450px;
+    line-height: 28px;
+}
+
+.data {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+span {
+    color: #FF1059;
+
+}
+
+.card-youtube {
+    display: flex;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.bt-principal {
+    border-radius: 33.071px;
+    border: 0.15px solid #FFF;
+    background: var(--AZUL-2, #2E58F7);
+    box-shadow: 0px 6.013px 6.013px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    width: 339.734px;
+    height: 49.607px;
+    padding: 0px 12.026px 0px 31.568px;
+    justify-content: center;
+    align-items: center;
+    gap: 15.032px;
+    flex-shrink: 0;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.copy {
+    color: #8897A4;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 1700px) {
+
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    .card-dois img {
+        width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    h1 {
+        font-size: 25px;
+        line-height: normal;
+    }
+
+    .card-dois img {
+        width: 650px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1150px) {
+
+    .box {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    h1 {
+        width: 400px;
+        font-weight: lighter;
+    }
+    
+    .legenda {
+        width: 400px;
+        line-height: 28px;
+    }
+
+    .card-dois img {
+        width: 670px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        height: 100vh;
+    }
+
+    .box {
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: flex-end;
+    }
+
+    h1 {
+        width: 400px;
+        font-weight: lighter;
+    }
+    
+    .legenda {
+        width: 400px;
+        line-height: 28px;
+    }
+
+    .card-dois img {
+        width: 550px;
+    }
+
+}
+
+@media screen and (max-width: 1080px) {
+
+    .box {
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: flex-end;
+    }
+
+    h1 {
+        width: 400px;
+        font-weight: lighter;
+    }
+    
+    .legenda {
+        width: 400px;
+        line-height: 28px;
+    }
+
+    .card-dois img {
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        height: 100vw;;
+    }
+
+    .box {
+        padding-top: 300px;
+        flex-wrap: wrap-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+
+    h1 {
+        width: 100%;
+        font-weight: lighter;
+    }
+    
+    .legenda {
+        width: 100%;
+        line-height: 28px;
+    }
+
+    .card-dois img {
+        width: 100%;
+    }
+    
+    .card-um {
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-salao {
+        padding-bottom: 50px;
+        margin-top: -200px;
+        width: 50%;
+    }
+
+    .card-youtube {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .box-bt {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    .box {
+        padding-top: 250px;
+        flex-wrap: wrap-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+    
+    .card-dois img {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .box {
+        padding-top: 200px;
+        flex-wrap: wrap-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+    
+    .card-dois img {
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .box {
+        padding-top: 150px;
+        flex-wrap: wrap-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+    
+    .card-dois img {
+        width: 100%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .box {
+        padding-top: 50px;
+        flex-wrap: wrap-reverse;
+        padding-left: 50px;
+        padding-right: 50px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+    
+    .card-dois img {
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (max-width: 620px) {
+
+    .box {
+        padding-top: 20px;
+        flex-wrap: wrap-reverse;
+        padding-left: 12px;
+        padding-right: 20px;
+        align-items: center;
+        justify-content: center;
+        background-size: 100vw;
+        background-repeat: no-repeat;
+        background-image: url(bg-mobile-smart.webp);
+    }
+    
+    .card-dois img {
+        width: 100%;
+    }
+
+    .logo-salao {
+        z-index: 1;
+    }
+
+
+
+}
+
+
+
+
+
+
