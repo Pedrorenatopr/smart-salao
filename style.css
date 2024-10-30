@@ -333,13 +333,25 @@ span {
         background-repeat: no-repeat;
         background-image: url(bg-mobile-smart.webp);
     }
+
+    .card-um {
+        background-image: url(fundo-azul-smart.webp);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100vw;
+    }
+
     
     .card-dois img {
         width: 100%;
+        z-index: 1;
     }
 
     .logo-salao {
-        z-index: 1;
+        padding-bottom: 50px;
+        margin-top: -350px;
+        width: 70%;
+        position: relative;
     }
 
 
