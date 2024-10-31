@@ -14,7 +14,7 @@ body {
 .box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-image: url(bg-desktop-smart.webp);
     background-size: 2024px;
     background-repeat: no-repeat;
@@ -70,7 +70,8 @@ span {
 
 .copy {
     color: #8897A4;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .card-data {
@@ -93,6 +94,14 @@ span {
 
     .card-dois img {
         width: 700px;
+    }
+
+}
+
+@media screen and (max-width: 1360px) {
+
+    .box {
+        padding-left: 50px;
     }
 
 }
