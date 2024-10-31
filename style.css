@@ -45,8 +45,8 @@ span {
 
 .card-youtube {
     display: flex;
-    gap: 12px;
-    font-size: 20px;
+    align-items: center;
+    gap: 5px;
 }
 
 .bt-principal {
@@ -71,6 +71,15 @@ span {
 .copy {
     color: #8897A4;
     padding-top: 50px;
+}
+
+.card-data {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
 }
 
 
@@ -354,6 +363,15 @@ span {
         margin-top: -350px;
         width: 70%;
         position: relative;
+    }
+
+    .card-data {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid #D9D9D9;
+        border-bottom: 1px solid #D9D9D9;
     }
 
 
